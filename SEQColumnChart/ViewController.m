@@ -22,8 +22,8 @@
     SEQColumnChart *column = [[SEQColumnChart alloc] initWithFrame:CGRectMake(0, 100, k_MainBoundsWidth, 300)];
     /*        创建数据源数组 每个数组即为一个模块数据 例如第一个数组可以表示某个班级的不同科目的平均成绩 下一个数组表示另外一个班级的不同科目的平均成绩         */
     column.valueArr = @[
-                        @[@12],
-                        @[@22]
+                        @[@12,@22,@33],
+                        @[@22,@22,@33]
                         
                         ];
     /*       该点 表示原点距左下角的距离         */
@@ -32,9 +32,9 @@
     /*        第一个柱状图距原点的距离         */
     column.drawFromOriginX = 10;
     /*        两组柱状图间距         */
-    column.typeSpace = 20;
+    column.typeSpace = 30;
     /*        柱状图的宽度         */
-    column.columnWidth = 20;
+    column.columnWidth = 25;
     /*        X、Y轴字体颜色         */
     column.drawTextColorForX_Y = [UIColor whiteColor];
     /*        X、Y轴线条颜色         */

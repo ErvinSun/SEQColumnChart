@@ -255,7 +255,7 @@
         for (NSInteger j = 0; j<arr.count; j++) {
 //            CGFloat height = [NSString stringWithFormat:@"%@",arr[j]].floatValue/_maxHeight * (CGRectGetHeight(self.frame) - 30 -   _originSize.y-1);
             
-            SEQWaterColumn *waveProgressView = [[SEQWaterColumn alloc]initWithFrame:CGRectMake((i * arr.count + j)*_columnWidth + i*_typeSpace+_originSize.x + _typeSpace, CGRectGetHeight(self.frame) - _originSize.y-1 - (CGRectGetHeight(self.frame) - _originSize.y - 30), _columnWidth, (CGRectGetHeight(self.frame) - _originSize.y - 30))];
+            SEQWaterColumn *waveProgressView = [[SEQWaterColumn alloc]initWithFrame:CGRectMake((i * arr.count + j)*_columnWidth + i*_typeSpace+_originSize.x + _typeSpace + 2*j, CGRectGetHeight(self.frame) - _originSize.y-1 - (CGRectGetHeight(self.frame) - _originSize.y - 30), _columnWidth, (CGRectGetHeight(self.frame) - _originSize.y - 30))];
             waveProgressView.percent = [NSString stringWithFormat:@"%@",arr[j]].floatValue/100;
             [waveProgressView startWave];
 
