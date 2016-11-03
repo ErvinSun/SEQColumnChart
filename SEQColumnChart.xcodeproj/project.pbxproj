@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6B5C2791DCB028400AB899D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C2781DCB028400AB899D /* main.m */; };
+		A6B5C27C1DCB028400AB899D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C27B1DCB028400AB899D /* AppDelegate.m */; };
+		A6B5C27F1DCB028400AB899D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C27E1DCB028400AB899D /* ViewController.m */; };
+		A6B5C2821DCB028400AB899D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B5C2801DCB028400AB899D /* Main.storyboard */; };
+		A6B5C2841DCB028400AB899D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6B5C2831DCB028400AB899D /* Assets.xcassets */; };
+		A6B5C2871DCB028400AB899D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6B5C2851DCB028400AB899D /* LaunchScreen.storyboard */; };
+		A6B5C2921DCB028400AB899D /* SEQColumnChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C2911DCB028400AB899D /* SEQColumnChartTests.m */; };
+		A6B5C29D1DCB028400AB899D /* SEQColumnChartUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C29C1DCB028400AB899D /* SEQColumnChartUITests.m */; };
+		A6B5C2AE1DCB02EB00AB899D /* SEQWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C2AD1DCB02EB00AB899D /* SEQWaterWaveView.m */; };
+		A6B5C2B41DCB142700AB899D /* SEQWaterColumn.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C2B31DCB142700AB899D /* SEQWaterColumn.m */; };
+		A6B5C2B81DCB154500AB899D /* SEQColumnChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A6B5C2B71DCB154500AB899D /* SEQColumnChart.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6B5C28E1DCB028400AB899D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B5C26C1DCB028400AB899D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B5C2731DCB028400AB899D;
+			remoteInfo = SEQColumnChart;
+		};
+		A6B5C2991DCB028400AB899D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6B5C26C1DCB028400AB899D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6B5C2731DCB028400AB899D;
+			remoteInfo = SEQColumnChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A6B5C2741DCB028400AB899D /* SEQColumnChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEQColumnChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B5C2781DCB028400AB899D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6B5C27A1DCB028400AB899D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6B5C27B1DCB028400AB899D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6B5C27D1DCB028400AB899D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6B5C27E1DCB028400AB899D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6B5C2811DCB028400AB899D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6B5C2831DCB028400AB899D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6B5C2861DCB028400AB899D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6B5C2881DCB028400AB899D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B5C28D1DCB028400AB899D /* SEQColumnChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEQColumnChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B5C2911DCB028400AB899D /* SEQColumnChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEQColumnChartTests.m; sourceTree = "<group>"; };
+		A6B5C2931DCB028400AB899D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B5C2981DCB028400AB899D /* SEQColumnChartUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEQColumnChartUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6B5C29C1DCB028400AB899D /* SEQColumnChartUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEQColumnChartUITests.m; sourceTree = "<group>"; };
+		A6B5C29E1DCB028400AB899D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6B5C2AC1DCB02EB00AB899D /* SEQWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEQWaterWaveView.h; sourceTree = "<group>"; };
+		A6B5C2AD1DCB02EB00AB899D /* SEQWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEQWaterWaveView.m; sourceTree = "<group>"; };
+		A6B5C2B21DCB142700AB899D /* SEQWaterColumn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEQWaterColumn.h; sourceTree = "<group>"; };
+		A6B5C2B31DCB142700AB899D /* SEQWaterColumn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEQWaterColumn.m; sourceTree = "<group>"; };
+		A6B5C2B61DCB154500AB899D /* SEQColumnChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEQColumnChart.h; sourceTree = "<group>"; };
+		A6B5C2B71DCB154500AB899D /* SEQColumnChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEQColumnChart.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6B5C2711DCB028400AB899D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B5C28A1DCB028400AB899D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B5C2951DCB028400AB899D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6B5C26B1DCB028400AB899D = {
+			isa = PBXGroup;
+			children = (
+				A6B5C2761DCB028400AB899D /* SEQColumnChart */,
+				A6B5C2901DCB028400AB899D /* SEQColumnChartTests */,
+				A6B5C29B1DCB028400AB899D /* SEQColumnChartUITests */,
+				A6B5C2751DCB028400AB899D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6B5C2751DCB028400AB899D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C2741DCB028400AB899D /* SEQColumnChart.app */,
+				A6B5C28D1DCB028400AB899D /* SEQColumnChartTests.xctest */,
+				A6B5C2981DCB028400AB899D /* SEQColumnChartUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6B5C2761DCB028400AB899D /* SEQColumnChart */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C2AA1DCB029700AB899D /* SEQColumnChart */,
+				A6B5C27A1DCB028400AB899D /* AppDelegate.h */,
+				A6B5C27B1DCB028400AB899D /* AppDelegate.m */,
+				A6B5C27D1DCB028400AB899D /* ViewController.h */,
+				A6B5C27E1DCB028400AB899D /* ViewController.m */,
+				A6B5C2801DCB028400AB899D /* Main.storyboard */,
+				A6B5C2831DCB028400AB899D /* Assets.xcassets */,
+				A6B5C2851DCB028400AB899D /* LaunchScreen.storyboard */,
+				A6B5C2881DCB028400AB899D /* Info.plist */,
+				A6B5C2771DCB028400AB899D /* Supporting Files */,
+			);
+			path = SEQColumnChart;
+			sourceTree = "<group>";
+		};
+		A6B5C2771DCB028400AB899D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C2781DCB028400AB899D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A6B5C2901DCB028400AB899D /* SEQColumnChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C2911DCB028400AB899D /* SEQColumnChartTests.m */,
+				A6B5C2931DCB028400AB899D /* Info.plist */,
+			);
+			path = SEQColumnChartTests;
+			sourceTree = "<group>";
+		};
+		A6B5C29B1DCB028400AB899D /* SEQColumnChartUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C29C1DCB028400AB899D /* SEQColumnChartUITests.m */,
+				A6B5C29E1DCB028400AB899D /* Info.plist */,
+			);
+			path = SEQColumnChartUITests;
+			sourceTree = "<group>";
+		};
+		A6B5C2AA1DCB029700AB899D /* SEQColumnChart */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C2B51DCB152400AB899D /* SEQColumnChart */,
+				A6B5C2AB1DCB02A800AB899D /* SEQWaveView */,
+			);
+			name = SEQColumnChart;
+			sourceTree = "<group>";
+		};
+		A6B5C2AB1DCB02A800AB899D /* SEQWaveView */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C2AC1DCB02EB00AB899D /* SEQWaterWaveView.h */,
+				A6B5C2AD1DCB02EB00AB899D /* SEQWaterWaveView.m */,
+				A6B5C2B21DCB142700AB899D /* SEQWaterColumn.h */,
+				A6B5C2B31DCB142700AB899D /* SEQWaterColumn.m */,
+			);
+			name = SEQWaveView;
+			sourceTree = "<group>";
+		};
+		A6B5C2B51DCB152400AB899D /* SEQColumnChart */ = {
+			isa = PBXGroup;
+			children = (
+				A6B5C2B61DCB154500AB899D /* SEQColumnChart.h */,
+				A6B5C2B71DCB154500AB899D /* SEQColumnChart.m */,
+			);
+			name = SEQColumnChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6B5C2731DCB028400AB899D /* SEQColumnChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B5C2A11DCB028400AB899D /* Build configuration list for PBXNativeTarget "SEQColumnChart" */;
+			buildPhases = (
+				A6B5C2701DCB028400AB899D /* Sources */,
+				A6B5C2711DCB028400AB899D /* Frameworks */,
+				A6B5C2721DCB028400AB899D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEQColumnChart;
+			productName = SEQColumnChart;
+			productReference = A6B5C2741DCB028400AB899D /* SEQColumnChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6B5C28C1DCB028400AB899D /* SEQColumnChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B5C2A41DCB028400AB899D /* Build configuration list for PBXNativeTarget "SEQColumnChartTests" */;
+			buildPhases = (
+				A6B5C2891DCB028400AB899D /* Sources */,
+				A6B5C28A1DCB028400AB899D /* Frameworks */,
+				A6B5C28B1DCB028400AB899D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B5C28F1DCB028400AB899D /* PBXTargetDependency */,
+			);
+			name = SEQColumnChartTests;
+			productName = SEQColumnChartTests;
+			productReference = A6B5C28D1DCB028400AB899D /* SEQColumnChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A6B5C2971DCB028400AB899D /* SEQColumnChartUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6B5C2A71DCB028400AB899D /* Build configuration list for PBXNativeTarget "SEQColumnChartUITests" */;
+			buildPhases = (
+				A6B5C2941DCB028400AB899D /* Sources */,
+				A6B5C2951DCB028400AB899D /* Frameworks */,
+				A6B5C2961DCB028400AB899D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6B5C29A1DCB028400AB899D /* PBXTargetDependency */,
+			);
+			name = SEQColumnChartUITests;
+			productName = SEQColumnChartUITests;
+			productReference = A6B5C2981DCB028400AB899D /* SEQColumnChartUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6B5C26C1DCB028400AB899D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = ervin;
+				TargetAttributes = {
+					A6B5C2731DCB028400AB899D = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 67G5ZUB9QG;
+						ProvisioningStyle = Automatic;
+					};
+					A6B5C28C1DCB028400AB899D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6B5C2731DCB028400AB899D;
+					};
+					A6B5C2971DCB028400AB899D = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A6B5C2731DCB028400AB899D;
+					};
+				};
+			};
+			buildConfigurationList = A6B5C26F1DCB028400AB899D /* Build configuration list for PBXProject "SEQColumnChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6B5C26B1DCB028400AB899D;
+			productRefGroup = A6B5C2751DCB028400AB899D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6B5C2731DCB028400AB899D /* SEQColumnChart */,
+				A6B5C28C1DCB028400AB899D /* SEQColumnChartTests */,
+				A6B5C2971DCB028400AB899D /* SEQColumnChartUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6B5C2721DCB028400AB899D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B5C2871DCB028400AB899D /* LaunchScreen.storyboard in Resources */,
+				A6B5C2841DCB028400AB899D /* Assets.xcassets in Resources */,
+				A6B5C2821DCB028400AB899D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B5C28B1DCB028400AB899D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B5C2961DCB028400AB899D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6B5C2701DCB028400AB899D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B5C2B81DCB154500AB899D /* SEQColumnChart.m in Sources */,
+				A6B5C27F1DCB028400AB899D /* ViewController.m in Sources */,
+				A6B5C2B41DCB142700AB899D /* SEQWaterColumn.m in Sources */,
+				A6B5C27C1DCB028400AB899D /* AppDelegate.m in Sources */,
+				A6B5C2791DCB028400AB899D /* main.m in Sources */,
+				A6B5C2AE1DCB02EB00AB899D /* SEQWaterWaveView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B5C2891DCB028400AB899D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B5C2921DCB028400AB899D /* SEQColumnChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B5C2941DCB028400AB899D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6B5C29D1DCB028400AB899D /* SEQColumnChartUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6B5C28F1DCB028400AB899D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B5C2731DCB028400AB899D /* SEQColumnChart */;
+			targetProxy = A6B5C28E1DCB028400AB899D /* PBXContainerItemProxy */;
+		};
+		A6B5C29A1DCB028400AB899D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6B5C2731DCB028400AB899D /* SEQColumnChart */;
+			targetProxy = A6B5C2991DCB028400AB899D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A6B5C2801DCB028400AB899D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B5C2811DCB028400AB899D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6B5C2851DCB028400AB899D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6B5C2861DCB028400AB899D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6B5C29F1DCB028400AB899D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6B5C2A01DCB028400AB899D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6B5C2A21DCB028400AB899D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67G5ZUB9QG;
+				INFOPLIST_FILE = SEQColumnChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ervin.SEQColumnChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6B5C2A31DCB028400AB899D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67G5ZUB9QG;
+				INFOPLIST_FILE = SEQColumnChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ervin.SEQColumnChart;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A6B5C2A51DCB028400AB899D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SEQColumnChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ervin.SEQColumnChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEQColumnChart.app/SEQColumnChart";
+			};
+			name = Debug;
+		};
+		A6B5C2A61DCB028400AB899D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SEQColumnChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ervin.SEQColumnChartTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEQColumnChart.app/SEQColumnChart";
+			};
+			name = Release;
+		};
+		A6B5C2A81DCB028400AB899D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SEQColumnChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ervin.SEQColumnChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SEQColumnChart;
+			};
+			name = Debug;
+		};
+		A6B5C2A91DCB028400AB899D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SEQColumnChartUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ervin.SEQColumnChartUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SEQColumnChart;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6B5C26F1DCB028400AB899D /* Build configuration list for PBXProject "SEQColumnChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B5C29F1DCB028400AB899D /* Debug */,
+				A6B5C2A01DCB028400AB899D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6B5C2A11DCB028400AB899D /* Build configuration list for PBXNativeTarget "SEQColumnChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B5C2A21DCB028400AB899D /* Debug */,
+				A6B5C2A31DCB028400AB899D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6B5C2A41DCB028400AB899D /* Build configuration list for PBXNativeTarget "SEQColumnChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B5C2A51DCB028400AB899D /* Debug */,
+				A6B5C2A61DCB028400AB899D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A6B5C2A71DCB028400AB899D /* Build configuration list for PBXNativeTarget "SEQColumnChartUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6B5C2A81DCB028400AB899D /* Debug */,
+				A6B5C2A91DCB028400AB899D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6B5C26C1DCB028400AB899D /* Project object */;
+}
